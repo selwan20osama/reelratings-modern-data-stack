@@ -1,0 +1,28 @@
+.env
+.env.*
+!.env.example
+pycache/
+*.pyc
+.venv/
+venv/
+logs/
+config/
+dbt_packages/
+target/
+.DS_Store
+dbt/my_dbt_project/logs/
+dbt/my_dbt_project/target/
+dbt/my_dbt_project/dbt_packages/
+
+# Streamlit app excluded from this repository
+streamlit_app/
+app.py
+
+# Temporary and local data
+*.swp
+*.save
+pycache/
+dags/data/retail_dw.db
+
+# Local ETL output and database files
+dags/data/
